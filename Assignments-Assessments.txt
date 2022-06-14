@@ -1,0 +1,237 @@
+Class Assignments:
+===============
+Edit Lead
+1. Launch URL "http://leaftaps.com/opentaps/control/login"
+2. Enter UserName and Password Using Id Locator
+3. Click on Login Button using Class Locator
+4. Click on CRM/SFA Link
+5. Click on Leads Button
+6. Click on Create Lead
+7. Enter CompanyName Field Using id Locator
+8. Enter FirstName Field Using id Locator
+9. Enter LastName Field Using id Locator
+10. Enter FirstName(Local) Field Using id Locator
+11. Enter Department Field Using any Locator of Your Choice
+12. Enter Description Field Using any Locator of your choice
+13. Enter your email in the E-mail address Field using the locator of your choice
+14. Fill all the dropdowns with the help of select class and methods
+15.Get all the options of stateprovince
+16. Click on Create Button
+17. Click on edit button
+18. Clear the Description Field using .clear()
+19. Fill ImportantNote Field with Any text
+20. Click on update button
+21. Get the Title of Resulting Page.
+====================================================
+1) Launch chrome and go to http://www.leafground.com/pages/Link.html
+2) Get all the links (using findElements)
+3) Click on the first link (using get method with index as 0)
+4) Print the title
+5) Navigate back on the browser (driver.navigate().back())
+6) Get all the links again (using findElements)
+7) Print the count of the links (size)
+8) print the href value (getAttribute) of the second link
+===================================================
+http://www.leafground.com/pages/Dropdown.html
+==============
+// Step 1: Download and set the path
+// Step 2: Launch the chromebrowser
+// Step 3: Load the URL https://en-gb.facebook.com/
+// Step 4: Maximise the window
+// Step 5: Add implicit wait
+// Step 6: Click on Create New Account button
+// Step 7: Enter the first name
+// Step 8: Enter the last name
+// Step 9: Enter the mobile number
+// Step 10: Enterthe password
+// Step 11: Handle all the three drop downs
+// Step 12: Select the radio button "Female"
+( A normal click will do for this step)
+====================
+1. Load url "https://acme-test.uipath.com/login"
+2. Enter email as "kumar.testleaf@gmail.com"
+3. Enter Password as "leaf@12"
+4. Click login button
+5. Get the title of the page and print
+6. Click on Log Out
+7. Close the browser
+=========
+1.Load the url https://www.instagram.com/accounts/emailsignup/
+2.Enter the mobile number
+3.Clear the field and enter the mail id
+4.Enter the first name
+5.Enter the username
+6.Enter the password
+7.close the browser
+=======================
+http://www.leafground.com/pages/Edit.html
+-->follow the label given to the text field to automate
+==============
+Delete Lead:
+1 Launch the browser
+2 Enter the username
+3 Enter the password
+4 Click Login
+5 Click crm/sfa link
+6 Click Leads link
+7 Click Find leads
+8 Click on Phone
+9 Enter phone number
+10 Click find leads button
+11 Capture lead ID of First Resulting lead
+12 Click First Resulting lead
+13 Click Delete
+14 Click Find leads
+15 Enter captured lead ID
+16 Click find leads button
+17 Verify message "No records to display" in the Lead List. This message confirms the successful deletion
+18 Close the browser
+=======================================
+
+classroom
+========
+1. Launch URL "https://www.myntra.com/"
+2. Maximize the browser
+3. Search 'Shirt' in the Search bar [find it using Xpath]
+4. Search for U.S Polo under brand
+5. Check U.S Polo Assn under brand
+6. Sort by 'what's new'
+7. Get all the prices of the shirts available and store it in a List
+8. Print all the prices of the Shirtsclassroom:2
+==========
+1. Login to https://login.salesforce.com
+2. Click on toggle menu button from the left corner
+3. Click view All
+4. Click Service Console from App Launcher
+5. Select New Contact from the Contacts dropdown
+6. Select Salutation
+7.Enter Firstname
+8. Enter Lastname
+9. Enter the phone number
+10. Click search on Account number
+11. Enter the Account number
+12. Select the Rating
+13. Click on Save
+14. Verify the toaster message
+15.Enter the phone number
+16.Click on Save
+17.Verify the Toaster message
+Login | Salesforce
+Salesforce Customer Secure Login Page. Login to your Salesforce Customer Account.
+
+*****
+https://login.salesforce.com/
+Username:- ramkumar.ramaiah@testleaf.com
+password:Password@123
+==========================================================
+1. Login to https://login.salesforce.com
+2. Click on toggle menu button from the left corner
+3. Click view All
+4. Click Service Console from App Launcher
+5. Select created Contact from the Contacts dropdown
+6. Edit the accountName of first resulting Contact
+7.Click on save
+8.Verify the Toaster Message
+====================================
+*********Assessment********
+            ==========
+Redbus application
+===============
+Launch the url https://www.redbus.in/
+Enter From -Madiwala Bangalore
+Enter To Koyambedu Chennai
+Select the Date 10-Jun-2022
+Click Search buses
+Click After 6pm under Departure time
+Click Sleeper under Bus types
+Select the Primo
+Get the number of buses found
+Get the Bus fare and sort them in ascending order
+Close the application
+
+Salesforce Application
+=================
+TC001: Party Consent-Create
+****************************
+1. Login to https://login.salesforce.com
+2. Click on the toggle menu button from the left corner
+3. Click View All and click Party Consent from App Launcher
+4. Click on the Dropdown icon in the Party Consent tab
+5. Click on New Party Consent
+6. Enter Name as 'Salesforce Automation by *Your Name*'
+7.Select the Individuals from the 'Party' field -
+8.Create New Individual
+9.Enter first and last name
+10. Click save and verify the toaster message
+11.Select Business Brand
+12.Create new Business Brand
+13.Enter the Name
+14.Enter Orgid
+15.Click save and verify the Toaster message
+16.Click the consent captured contact point type as Email
+17.Click save and verify Party Consent Name"
+
+
+TC002:Party Consent-Delete
+********************************
+1. Login to https://login.salesforce.com
+2. Click on the toggle menu button from the left corner
+3. Click View All and click Party Consent from App Launcher
+4. Click on the Party Consent tab
+5. Search Name as 'Salesforce Automation by *Your Name*'
+6.Click on the Dropdown icon and Select Delete
+7.Click on the Delete option in the displayed popup window.
+8. Verify Whether Party Consent is Deleted using Party Consent name"
+=================================================================
+
+
+http://www.leafground.com/pages/Link.html
+http://www.leafground.com/pages/Button.html
+=================================================================
+ServiceNow Application
+=================
+Create new incident
+1. Launch ServiceNow application
+2. Login with valid credentials
+3. Enter Incident in filter navigator and press enter
+4. Click on Create new option and fill the manadatory fields
+5. Verify the newly created incident
+
+https://dev79735.service-now.com/navpage.do
+username:admin
+password:MuagE2bCJ%!3
+===============================================================
+
+1) Go to https://www.nykaa.com/
+2) Click Brands and Search L'Oreal Paris
+3) Click L'Oreal Paris
+4) Check the title contains L'Oreal Paris
+5) Click sort By and select customer top rated
+6) Click Category and click Hair->Click haircare->Shampoo
+7) Click->Concern->Color Protection
+8)check whether the Filter is applied with Shampoo
+9) Click on L'Oreal Paris Colour Protect Shampoo
+10) GO to the new window and select size as 175ml
+11) Print the MRP of the product
+12) Click on ADD to BAG
+13) Go to Shopping Bag
+14) Print the Grand Total amount
+15) Click Proceed
+16) Click on Continue as Guest
+17) Check if this grand total is the same in step 14
+18) Close all windows
+==========
+1. Launch URL "http://leaftaps.com/opentaps/control/login"
+2. Enter UserName and Password Using Id Locator
+3. Click on Login Button using Class Locator
+4. Click on CRM/SFA Link
+5. Click on contacts Button
+6. Click on Merge Contacts using Xpath Locator
+7. Click on Widget of From Contact
+8. Click on First Resulting Contact
+9. Click on Widget of To Contact
+10. Click on Second Resulting Contact
+11. Click on Merge button using Xpath Locator
+12. Accept the Alert
+13. Verify the title of the page
+
