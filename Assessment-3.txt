@@ -3,10 +3,10 @@ Assessment-3
 
 Test Steps:
 ----------------
-1) Launch the app
+1) Launch the app (Sales force)
 2) Click Login
 3) Login with the credentials
-4) Click on Global Actions SVG icon
+4) Click on Global Actions SVG icon(Use SVG concept)
 5) Click New Task
 6) Enter subject as "Bootcamp "                                          
 7) Select Contact from DropDown
@@ -21,20 +21,22 @@ New Case should be created successfully
 Test Steps:
 ---------------
 1. Login to https://login.salesforce.com
-2. Click on toggle menu button from the left corner
+2. Click on toggle menu button from the left corner (Use  -Actions class)
 3. Click view All from App Launcherr
 4. Click on Content tab 
 5. Click View All from Today's Task
 6. Click the Display as dropdown under Recently Viewed and select Table
-7. Click the dropdown of first result and click Create Follow-Up Event
+7. Click the dropdown of first result (use Actions class)and click Create Follow-Up Event(JS Script)
 8. Select the  Account in Assigned to field
 9. Enter Subject as Meeting
 10. Select the Name of the person in Name field
 11. Select the Product in releted to field
-12. Select due date as next month 5th day (End Date)
+12. Select due date as next month 5th day (End Date)(calendar concept)
 13. Click Save button
+
 Expected result:
 Event Meeting should be created with the given details.
+
 
 
 
